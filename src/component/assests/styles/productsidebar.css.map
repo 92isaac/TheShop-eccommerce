@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAGI,gBAHY,CAGZ,MAAM,CAAA;EACF,aAAa,EAAE,GAAG;CACrB;;AALL,AAOI,gBAPY,CAOZ,WAAW,EAPf,gBAAgB,CAOC,YAAY,EAP7B,gBAAgB,CAOe,aAAa,CAAA;EACrC,aAAa,EAAE,IAAI;CAKrB;;AAbL,AAUO,gBAVS,CAOZ,WAAW,CAGR,KAAK,EAVZ,gBAAgB,CAOC,YAAY,CAGtB,KAAK,EAVZ,gBAAgB,CAOe,aAAa,CAGrC,KAAK,CAAA;EACJ,gBAAgB,ECZV,OAAO;CDab",
+    "sources": [
+        "productsidebar.scss",
+        "Color.scss"
+    ],
+    "names": [],
+    "file": "productsidebar.css"
+}

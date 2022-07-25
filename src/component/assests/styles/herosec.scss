@@ -1,0 +1,53 @@
+@import "Color";
+
+.hero-sec-wrapper{
+    background-color: $blue_color;
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+
+    .hero-text{
+        margin-top: 70px;
+        p{
+            color: #fff;
+            width: 70%;
+            line-height: 30px;
+        }
+    }
+
+
+
+    .hero-img{ 
+        position: relative;
+        margin-top: 40px;
+
+
+        .hero-img1{
+            position: relative;
+            width: 70%;
+            z-index: 5;
+            height: 400px;
+        }
+        .hero-img2{
+        position: absolute;
+        width: 70%;
+        margin-left: -350px;
+        height: 400px;
+
+
+
+        }
+        .hero-img3{
+        position: absolute;
+        width: 70%;
+        margin-left: -230px;
+        height: 400px;
+
+
+        }
+        
+    //     img{
+    //     width: 70%;
+    // }
+}
+}

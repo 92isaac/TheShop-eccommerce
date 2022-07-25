@@ -1,0 +1,46 @@
+.hero-sec-wrapper {
+  background-color: #8568FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 70vh;
+}
+
+.hero-sec-wrapper .hero-text {
+  margin-top: 70px;
+}
+
+.hero-sec-wrapper .hero-text p {
+  color: #fff;
+  width: 70%;
+  line-height: 30px;
+}
+
+.hero-sec-wrapper .hero-img {
+  position: relative;
+  margin-top: 40px;
+}
+
+.hero-sec-wrapper .hero-img .hero-img1 {
+  position: relative;
+  width: 70%;
+  z-index: 5;
+  height: 400px;
+}
+
+.hero-sec-wrapper .hero-img .hero-img2 {
+  position: absolute;
+  width: 70%;
+  margin-left: -350px;
+  height: 400px;
+}
+
+.hero-sec-wrapper .hero-img .hero-img3 {
+  position: absolute;
+  width: 70%;
+  margin-left: -230px;
+  height: 400px;
+}
+/*# sourceMappingURL=herosec.css.map */
