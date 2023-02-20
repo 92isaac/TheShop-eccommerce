@@ -1,13 +1,13 @@
 import { PageHero } from '../components';
 import styled from 'styled-components';
-import aboutImg from '../assets/hero-bcg.jpeg';
 
 const About = () => {
+  const randomImage = `https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/500/500`;
   return (
     <main>
       <PageHero title="about" />
       <Wrapper className="page section section-center">
-        <img src={aboutImg} alt="about img" />
+        <img src={randomImage} alt="about img" />
         <article>
           <div className="title">
             <h2>Our story</h2>
