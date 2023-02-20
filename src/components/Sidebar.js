@@ -1,4 +1,3 @@
-import logo from '../assets/logo.svg';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 import { links } from '../utils/Constants';
@@ -13,7 +12,7 @@ const Sidebar = () => {
         className={`${isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}`}
       >
         <div className="sidebar-header">
-          <img src={logo} alt="logo" className="logo" />
+        <h1 className='logo'>the<span>Shop</span></h1>
           <button className="close-btn" type="button" onClick={closeSidebar}>
             <FaTimes />
           </button>

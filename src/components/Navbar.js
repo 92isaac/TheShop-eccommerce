@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="nav-header">
           <Link to="/">
             <h1 className='logo'>the<span>Shop</span></h1>
-            {/* <img src={logo} alt="logo img" /> */}
+           
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
