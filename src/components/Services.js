@@ -7,7 +7,7 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            Custom furniture <br /> built only for you
+            TheShop <br /> built only for you
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati

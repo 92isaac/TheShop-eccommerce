@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import logo from '../assets/logo.svg';
 import { Link } from 'react-router-dom';
 import { links } from '../utils/Constants';
 import { FaBars } from 'react-icons/fa';
@@ -13,7 +12,8 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <Link to="/">
-            <img src={logo} alt="logo img" />
+            <h1 className='logo'>the<span>Shop</span></h1>
+            {/* <img src={logo} alt="logo img" /> */}
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
@@ -50,9 +50,14 @@ const NavContainer = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    img {
+    h1 {
       width: 175px;
       margin-left: -15px;
+      span{
+        font-style: italic;
+        font-family:administ;
+        color: #C5A491;
+      }
     }
   }
   .nav-toggle {

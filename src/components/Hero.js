@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import heroBcg from "../assets/hero-bcg.jpeg";
-import heroBcg2 from "../assets/hero-bcg-2.jpeg";
+// import heroBcg from "../assets/hero-bcg.jpeg";
+// import heroBcg2 from "../assets/hero-bcg-2.jpeg";
 
 const Hero = () => {
+  const randomImage = `https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/500/500`;
+
+  const randomImage2 = `https://picsum.photos/id/${Math.floor(Math.random() * 1000)}/500/500`;
+
+
   return (
     <Wrapper className="section-center">
       <article className="content">
@@ -19,8 +24,8 @@ const Hero = () => {
         </Link>
       </article>
       <article className="img-container">
-        <img src={heroBcg} alt="nice table" className="main-img" />
-        <img src={heroBcg2} alt="person" className="accent-img" />
+        <img src={randomImage} alt="nice table" className="main-img" />
+        <img src={randomImage2} alt="person" className="accent-img" />
       </article>
     </Wrapper>
   );
