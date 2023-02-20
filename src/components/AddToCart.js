@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import AmountButtons from './AmountButtons';
 
 const AddToCart = ({ product }) => {
-  const { id, stock, colors } = product;
+  const { stock, colors } = product;
 
   const [mainColor, setMainColor] = useState(colors);
   const [amount, setAmount] = useState(1);

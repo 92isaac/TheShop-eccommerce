@@ -5,9 +5,6 @@ import {
   SET_LISTVIEW,
   UPDATE_SORT,
   SORT_PRODUCTS,
-  UPDATE_FILTERS,
-  FILTER_PRODUCTS,
-  CLEAR_FILTERS,
 } from "../utils/action";
 
 import reducer from "../reducers/filter_reducer";

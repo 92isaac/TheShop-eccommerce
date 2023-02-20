@@ -10,7 +10,7 @@ import {
   Error,
   Products,
   SingleProducts,
-  Private,
+  // Private,
 } from './pages';
 function App() {
   return (

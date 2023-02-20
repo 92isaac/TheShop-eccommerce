@@ -1,4 +1,4 @@
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from 'react-icons/fa';
+import { FaShoppingCart, FaUserPlus } from 'react-icons/fa';
 import { useProductsContext } from '../context/product_context';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
