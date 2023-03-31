@@ -11,7 +11,7 @@ const FeaturedProducts = () => {
     featured_products: featured,
     // products,
   } = useProductsContext();
-  // console.log(featured, products);
+  console.log(featured);
   if (loading) {
     return <Loading />;
   }
